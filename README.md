@@ -11,3 +11,13 @@ Metacello new
   repository: 'github://olekscode/IdentifierNameSplitter/src';
   load.
 ```
+
+## How to use?
+
+```Smalltalk
+'HelloWorld' splitIdentifierName. "#(Hello World)"
+'adaptToCollection:andSend:' splitIdentifierName. "#(adapt To Collection : and Send :)"
+'example42' splitIdentifierName. "#(example '42')"
+'parseHTTPRequest:' splitIdentifierName. "#(parse HTTP Request :)"
+'a_bc>>xy42HTMLEditor:AST++' splitIdentifierName. "#(a _ bc >> xy '42' HTML Editor : AST ++)"
+```
