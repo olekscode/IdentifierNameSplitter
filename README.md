@@ -1,4 +1,5 @@
-# IdentifierNameSplitter
+# Identifier Name Splitter for Pharo
+
 A tool for splitting identifier names into separate words, numbers, and symbols. For example, `aName_AST42:` gets separated into 'a', 'Name', '_', 'AST', '42', and ':'.
 
 ## Installation
@@ -6,7 +7,7 @@ To install `IdentifierNameSplitter`, go to the Playground (`Ctrl+OW`) in your Ph
 
 ```smalltalk
 Metacello new
-  baseline: 'DataFrame';
-  repository: 'github://PolyMathOrg/DataFrame/src';
+  baseline: 'IdentifierNameSplitter';
+  repository: 'github://olekscode/IdentifierNameSplitter/src';
   load.
 ```
