@@ -2,5 +2,5 @@ Extension { #name : #String }
 
 { #category : #'*IdentifierNameSplitter' }
 String >> splitIdentifierName [
-	^ IdentifierNameSplitter splitIdentifierName: self
+	^ IdentifierNameSplitter instance splitIdentifierName: self
 ]
